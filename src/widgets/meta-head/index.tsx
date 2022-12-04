@@ -22,10 +22,7 @@ const MetaHead = ({ title }: Props) => {
         <meta name="description" content="Alp HARVEST" />
 
         <meta property="og:type" content="website" />
-        <meta
-          property="og:url"
-          content="https://https://alp-harvest.netlify.app"
-        />
+        <meta property="og:url" content="https://alp-harvest.netlify.app" />
         <meta property="og:title" content="Alp HARVEST" />
         <meta
           name="description"
@@ -34,23 +31,23 @@ const MetaHead = ({ title }: Props) => {
         />
         <meta
           property="og:image"
-          content="https://https://alp-harvest.netlify.app/icons/logo.jpg"
+          content="https://alp-harvest.netlify.app/icons/logo.jpg"
         />
         <meta
           property="og:image:secure_url"
-          content="https://https://alp-harvest.netlify.app/icons/logo.jpg"
+          content="https://alp-harvest.netlify.app/icons/logo.jpg"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content="https://https://alp-harvest.netlify.app"
+          content="https://alp-harvest.netlify.app"
         />
         <meta property="twitter:title" content="Alp HARVEST" />
         <meta property="twitter:description" content="Alp HARVEST" />
         <meta
           property="twitter:image"
-          content="https://https://alp-harvest.netlify.app/icons/logo.jpg"
+          content="https://alp-harvest.netlify.app/icons/logo.jpg"
         />
       </Head>
     </>

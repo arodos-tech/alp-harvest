@@ -40,7 +40,7 @@ select:required:invalid {
 }
 
 .headerLogoRight {
-  background-image: url("/icons/itcLogo.png");
+  /* background-image: url("/icons/itcLogo.png"); */
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
