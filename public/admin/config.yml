@@ -1,0 +1,138 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+# local_backend: true
+# local_backend:
+#   # when using a custom proxy server port
+#   url: http://localhost:8081/api/v1
+#   # when accessing the local site from a host other than 'localhost' or '127.0.0.1'
+#   allowed_hosts: ["192.168.0.1"]
+logo_url: https://alp-harvest.netlify.app/icons/logo2op.jpg
+media_folder: public/images
+public_folder: images
+collections:
+  - name: "homeAbout"
+    label: "Home"
+    files:
+      - name: "content-heroAbout"
+        label: "Hero and About"
+        file: "content/homeData/content-heroAbout.md"
+        fields:
+          - {
+              label: "Hero Image",
+              name: "heroImage",
+              widget: "image",
+              choose_url: true,
+              allow_multiple: false,
+            }
+
+          - { label: "About Text", name: "aboutTitle", widget: "string" }
+
+          - { label: "About Body", name: "aboutText", widget: "string" }
+
+      - name: "content-productTypes"
+        label: "Product Types"
+        file: "content/homeData/content-productTypes.md"
+        fields:
+          - label: "Product List"
+            name: "productTypes"
+            widget: list
+            allow_add: false
+            fields:
+              - { label: "Product Name", name: "name", widget: "string" }
+              - {
+                  label: "Product Description",
+                  name: "description",
+                  widget: "text",
+                }
+              - {
+                  label: "Product Image",
+                  name: "image",
+                  widget: "image",
+                  choose_url: true,
+                  allow_multiple: false,
+                }
+
+      # - name: "content-footerDetails"
+      #   label: "Footer Details"
+      #   file: "content/homeData/content-footerDetails.md"
+      #   fields:
+      #     - label: "Footer Brand Description"
+      #       name: "descriptionText"
+      #       widget: "string"
+
+  - name: "seaFood"
+    label: "Sea Foods"
+    folder: "content/seaFood"
+    label_singular: "Seafood Product"
+    #identifier_field: name
+    slug: "{{name}}-{{year}}-{{month}}-{{day}}"
+    create: true
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+
+      - { label: "Description", name: "description", widget: "string" }
+
+      - label: "Varieties"
+        name: "varieties"
+        widget: list
+        fields:
+          - { label: "Variety Name", name: "name", widget: "string" }
+
+      - {
+          label: "Product Image",
+          name: "image",
+          widget: "image",
+          choose_url: true,
+          allow_multiple: false,
+        }
+
+  - name: "processedMeat"
+    label: "Processed Meat"
+    folder: "content/processedMeat"
+    label_singular: "Meat Product"
+    slug: "{{name}}-{{year}}-{{month}}-{{day}}"
+    create: true
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+
+      - { label: "Description", name: "description", widget: "string" }
+
+      - label: "Varieties"
+        name: "varieties"
+        widget: list
+        fields:
+          - { label: "Variety Name", name: "name", widget: "string" }
+
+      - {
+          label: "Product Image",
+          name: "image",
+          widget: "image",
+          choose_url: true,
+          allow_multiple: false,
+        }
+
+  - name: "pickles" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Pickles" # Used in the UI
+    folder: "content/pickles"
+    label_singular: "Pickle Product" # Used in the UI, ie: "New Post"
+    slug: "{{name}}-{{year}}-{{month}}-{{day}}"
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document have of this folder collection
+      - { label: "Name", name: "name", widget: "string" }
+
+      - { label: "Description", name: "description", widget: "string" }
+
+      - label: "Varieties"
+        name: "varieties"
+        widget: list
+        fields:
+          - { label: "Variety Name", name: "name", widget: "string" }
+
+      - {
+          label: "Product Image",
+          name: "image",
+          widget: "image",
+          choose_url: true,
+          allow_multiple: false,
+        }
