@@ -18,7 +18,7 @@ import Product3 from "./product-3";
 import About from "./about";
 import Footer from "widgets/footer";
 
-import bgImg from "../../../public/assets/bgPicture-1.jpg";
+import bgImg from "../../../public/assets/bg-image.jpg";
 
 import fs from "fs";
 import path from "path";
@@ -107,24 +107,24 @@ const Home = ({ response }: Props) => {
       <div className={`z-10 relative overflow-hidden ${paddingClass}`}>
         <div ref={product1Ref}>
           <Product1
-            animateClass1="holder2"
-            animateClass2="holder3"
+            animateClass1="translateLeft"
+            animateClass2="translateRight"
             smoothScroll={smoothScroll}
             data={response[1].productTypes[0]}
           />
         </div>
         <div ref={product2Ref}>
           <Product2
-            animateClass1="holder2"
-            animateClass2="holder3"
+            animateClass1="translateLeft"
+            animateClass2="translateRight"
             smoothScroll={smoothScroll}
             data={response[1].productTypes[1]}
           />
         </div>
         <div ref={product3Ref}>
           <Product3
-            animateClass1="holder2"
-            animateClass2="holder3"
+            animateClass1="translateLeft"
+            animateClass2="translateRight"
             smoothScroll={smoothScroll}
             data={response[1].productTypes[2]}
           />
@@ -136,8 +136,8 @@ const Home = ({ response }: Props) => {
             title: response[0].aboutTitle,
             body: response[0].aboutText,
           }}
-          animateClass1="holder1"
-          animateClass2="holder2"
+          animateClass1="translateBottom"
+          animateClass2="translateLeft"
         />
       </div>
       <Footer smoothScroll={smoothScroll} />

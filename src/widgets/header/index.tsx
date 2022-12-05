@@ -60,7 +60,6 @@ const Header = ({ smoothScroll }: Props) => {
             }}
             className="flex items-center justify-end"
           >
-            {/* <div className={`headerLogoRight w-10 h-12 md:w-12 md:h-16`} /> */}
             <MenuIcon
               style={
                 "h-10 w-10 text-white hover:text-amber-500 transition-all duration-500 cursor-pointer"

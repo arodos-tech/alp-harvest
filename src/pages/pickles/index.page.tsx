@@ -9,7 +9,7 @@ import Hero from "widgets/product-hero";
 import Product from "widgets/product";
 import Footer from "widgets/footer";
 
-import bgImg from "../../../public/assets/bgPicture-1.jpg";
+import bgImg from "../../../public/assets/bg-image.jpg";
 
 import fs from "fs";
 import path from "path";
@@ -45,15 +45,15 @@ const Pickles = ({ products }: Props) => {
         <Hero
           title={"Pickles"}
           heroImage={"assets/pickles.jpg"}
-          animateClass="holder1"
+          animateClass="translateBottom"
         />
       </div>
       <div className={`z-10 relative overflow-hidden ${paddingClass}`}>
         {products.map((product: any, index: any) => (
           <div key={index}>
             <Product
-              animateClass1="holder2"
-              animateClass2="holder3"
+              animateClass1="translateLeft"
+              animateClass2="translateRight"
               data={product.data}
             />
           </div>

@@ -1,5 +1,5 @@
 export const reveal = () => {
-  var elements1 = document.querySelectorAll(".holder1");
+  var elements1 = document.querySelectorAll(".translateBottom");
 
   elements1.forEach((element) => {
     var top = element.getBoundingClientRect().top;
@@ -7,7 +7,7 @@ export const reveal = () => {
       element.classList.add("fadeInUp");
     }
   });
-  var elements2 = document.querySelectorAll(".holder2");
+  var elements2 = document.querySelectorAll(".translateLeft");
 
   elements2.forEach((element) => {
     var top = element.getBoundingClientRect().top;
@@ -15,7 +15,7 @@ export const reveal = () => {
       element.classList.add("fadeLeft");
     }
   });
-  var elements3 = document.querySelectorAll(".holder3");
+  var elements3 = document.querySelectorAll(".translateRight");
 
   elements3.forEach((element) => {
     var top = element.getBoundingClientRect().top;

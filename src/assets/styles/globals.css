@@ -39,13 +39,6 @@ select:required:invalid {
   background-position: center;
 }
 
-.headerLogoRight {
-  /* background-image: url("/icons/itcLogo.png"); */
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 .bgImg {
   background-image: url("/assets/images/frozen-snacks-bg-pattern.png");
   background-size: contain;
@@ -59,7 +52,7 @@ select:required:invalid {
   background-position: center;
 }
 
-.holder {
+.holder1 {
   opacity: 0;
   transform: translateY(100px);
 }
@@ -80,7 +73,7 @@ select:required:invalid {
   }
 }
 
-.holder2 {
+.translateLeft {
   opacity: 0;
   transform: translateX(-100px);
 }
@@ -101,7 +94,7 @@ select:required:invalid {
   }
 }
 
-.holder3 {
+.translateRight {
   opacity: 0;
   transform: translateX(100px);
 }
