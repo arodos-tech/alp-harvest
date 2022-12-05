@@ -1,5 +1,5 @@
 ---
-heroImage: images/hero-banner3.jpg
+heroImage: images/hero-banner.jpg
 aboutTitle: About Alp HARVEST
 aboutText: Although you hope that every person who passes by your page has a
   positive response, the reality is that not everyone is going to share your
