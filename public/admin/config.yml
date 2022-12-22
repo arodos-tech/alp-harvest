@@ -28,7 +28,12 @@ collections:
 
           - { label: "About Text", name: "aboutTitle", widget: "string" }
 
-          - { label: "About Body", name: "aboutText", widget: "string" }
+          # - { label: "About Body", name: "aboutText", widget: "string" }
+          - label: "About Body"
+            name: "aboutText"
+            widget: list
+            fields:
+              - { label: "Paragraph", name: "para", widget: "string" }
 
       - name: "content-productTypes"
         label: "Product Types"
@@ -71,7 +76,12 @@ collections:
     fields:
       - { label: "Name", name: "name", widget: "string" }
 
-      - { label: "Description", name: "description", widget: "string" }
+      # - { label: "Description", name: "description", widget: "string" }
+      - label: "Description"
+        name: "Description"
+        widget: list
+        fields:
+          - { label: "Paragraph", name: "para", widget: "string" }
 
       - label: "Varieties"
         name: "varieties"
@@ -96,7 +106,12 @@ collections:
     fields:
       - { label: "Name", name: "name", widget: "string" }
 
-      - { label: "Description", name: "description", widget: "string" }
+      # - { label: "Description", name: "description", widget: "string" }
+      - label: "Description"
+        name: "Description"
+        widget: list
+        fields:
+          - { label: "Paragraph", name: "para", widget: "string" }
 
       - label: "Varieties"
         name: "varieties"
@@ -121,7 +136,12 @@ collections:
     fields: # The fields each document have of this folder collection
       - { label: "Name", name: "name", widget: "string" }
 
-      - { label: "Description", name: "description", widget: "string" }
+      # - { label: "Description", name: "description", widget: "string" }
+      - label: "Description"
+        name: "Description"
+        widget: list
+        fields:
+          - { label: "Paragraph", name: "para", widget: "string" }
 
       - label: "Varieties"
         name: "varieties"

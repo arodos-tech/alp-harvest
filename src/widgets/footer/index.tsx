@@ -40,9 +40,10 @@ const Footer = ({ smoothScroll }: Props) => {
       {/* brand description */}
       <div className="p-4 pl-0">
         <p className="tracking-tight 2sm:w-40 md:w-full">
-          Lorem Ipsum has been the industry's standard dummy text ever since the
-          1500s, when an unknown printer took a galley of type and scrambled it
-          to make a type specimen book.
+          Alp Harvest is the fulfillment of the dream of the founders to provide
+          best quality seafood to the Northeast, at great prices. We bring to
+          you the good quality, nutrition-loaded, affordable Seafood that you
+          always wanted!
         </p>
       </div>
     </div>
