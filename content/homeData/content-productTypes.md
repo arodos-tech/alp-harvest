@@ -1,6 +1,6 @@
 ---
 productTypes:
-  - name: SEAFOOD
+  - name: SEA FOOD
     description: Look at Frozen Sea Foods in a whole new way - Get nutrition, taste
       and variety all in one go!
     image: /images/seafood.png
