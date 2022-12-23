@@ -22,7 +22,7 @@ const About = ({ data, animateClass1, animateClass2 }: Props) => {
           <img className="w-72 object-cover" src={aboutImg2.src} />
         </div>
       </div>
-      <div className="w-full lg:w-4/6 h-fit  bg-[#663a07af] flex items-center justify-center lg:justify-start p-4 lg:p-8 overflow-hidden">
+      <div className="w-full lg:w-4/6 h-fit  bg-[#663a07af] flex items-center justify-center lg:justify-start md:p-4 xl:p-8 overflow-hidden">
         <div
           className={`${animateClass1} h-fit w-full flex flex-col items-center justify-center p-4 xl:p-14 text-white space-y-7`}
         >
@@ -32,7 +32,7 @@ const About = ({ data, animateClass1, animateClass2 }: Props) => {
           <div className="w-full flex items-center gap-5 2xl:gap-8">
             <div
               onClick={() => setToggle(1)}
-              className="w-20 h-20 rounded-full cursor-pointer active:scale-90 shadow-md transition-all duration-500"
+              className="w-20 h-20 absolute left-2 md:relative opacity-50 md:opacity-100 rounded-full cursor-pointer active:scale-90 shadow-md transition-all duration-500"
             >
               <ChevronLeft style={"w-20 h-20 fill-white"} />
             </div>
@@ -78,7 +78,7 @@ const About = ({ data, animateClass1, animateClass2 }: Props) => {
             </div>
             <div
               onClick={() => setToggle(2)}
-              className="w-20 h-20 rounded-full cursor-pointer active:scale-90 shadow-md transition-all duration-500"
+              className="w-20 h-20 absolute right-2 md:relative opacity-50 md:opacity-100 rounded-full cursor-pointer active:scale-90 shadow-md transition-all duration-500"
             >
               <ChevronRight style={"w-20 h-20 fill-white"} />
             </div>
