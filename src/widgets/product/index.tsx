@@ -46,15 +46,15 @@ const Product = ({
           {data.description}
         </p> */}
         <div className="w-full flex flex-col items-start justify-start pt-4">
-          <p className="tracking-wide text-2xl font-bold font-serif text-amber-800 border-b-2 border-amber-800 mb-3">
+          <p className="text-2xl font-bold font-serif text-amber-900 border-b-2 border-amber-900 mb-3">
             Variants
           </p>
           {data.varieties.map((variety: any, index: any) => (
             <div className="w-full flex space-x-2">
-              <p className="h-full text-lime-900 font-bold">o</p>
+              <p className="h-full text-black">o</p>
               <p
                 key={index}
-                className="font-semibold text-lg text-green-800 tracking-wider"
+                className="font-semibold text-lg text-black tracking-wider"
               >
                 {variety.name}
               </p>
