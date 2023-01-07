@@ -38,7 +38,7 @@ const Hero = ({ smoothScroll, heroImage }: Props) => {
         </div>
         <div className="w-full h-1/3 border-x-[14px] border-b-[14px] border-white flex items-start justify-center p-4">
           <p className="text-white text-xl sm:text-2xl font-semibold text-center">
-            Heavenly Test is here!
+            Heavenly Taste is here!
           </p>
         </div>
       </div>
