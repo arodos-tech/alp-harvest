@@ -3,7 +3,12 @@ const nextConfig = {
   reactStrictMode: true,
   pageExtensions: ["page.tsx", "page.ts", "page.jsx", "page.js"],
   images: {
-    domains: ["localhost", "127.0.0.1", "http://localhost:8888"],
+    domains: [
+      "localhost",
+      "127.0.0.1",
+      "http://localhost:8888",
+      "https://alpharvest.com",
+    ],
   },
   async redirects() {
     return [
