@@ -128,9 +128,13 @@ const ContactUs = (props: Props) => {
                 <div className="w-full flex space-x-4">
                   <LocationIcon style={"h-7 w-7"} />
                   <p className="flex-1 text-lg">
-                    Guwahati,
+                    Saukuchi tiniali,
                     <br />
-                    Assam - 781001
+                    Opp betkuchi high school,
+                    <br />
+                    Lokhra- lalganesh road,
+                    <br />
+                    Guwahati - 781040
                   </p>
                 </div>
                 <div className="w-full flex space-x-4">
