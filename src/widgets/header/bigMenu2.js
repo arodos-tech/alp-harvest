@@ -23,7 +23,10 @@ const BigMenu2 = ({ classNames }) => {
           <a className={classNames.menu}>Pickles</a>
         </Link>
         <Link href={"/home#about"}>
-          <a className={classNames.menu}>About</a>
+          <a className={classNames.menu}>Our Story</a>
+        </Link>
+        <Link href={"/contact-us"}>
+          <a className={classNames.menu}>Contact Us</a>
         </Link>
       </div>
     </div>

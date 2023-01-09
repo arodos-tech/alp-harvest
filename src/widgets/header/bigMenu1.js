@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const BigMenu1 = ({ classNames, smoothScroll }) => {
@@ -51,8 +52,11 @@ const BigMenu1 = ({ classNames, smoothScroll }) => {
           }}
           className={classNames.menu}
         >
-          About
+          Our Story
         </a>
+        <Link href={"/contact-us"}>
+          <a className={classNames.menu}>Contact Us</a>
+        </Link>
       </div>
     </div>
   );

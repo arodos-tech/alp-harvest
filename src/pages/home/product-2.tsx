@@ -28,14 +28,14 @@ const Product2 = ({
       <div
         className={`${animateClass2} w-full lg:w-1/2 flex flex-col items-center lg:items-start justify-center space-y-5 p-4`}
       >
-        <p className="text-4xl font-semibold text-amber-900 font-serif">
+        <p className="text-4xl font-semibold text-white font-family-title">
           {data.name}
         </p>
         <p className="text-xl font-semibold text-secondary pb-4">
           {data.description}
         </p>
         <Link href={"/processed-meat"}>
-          <a className="w-60 h-14 flex items-center justify-center bg-green-600 text-lg font-bold text-white rounded-xl cursor-pointer active:scale-95 transition-all duration-500">
+          <a className="w-60 h-14 flex items-center justify-center bg-white text-lg font-bold text-black rounded-xl cursor-pointer active:scale-95 transition-all duration-500">
             See All Products
           </a>
         </Link>
@@ -43,7 +43,7 @@ const Product2 = ({
           onClick={() => {
             smoothScroll("product3");
           }}
-          className="w-60 h-14 bg-yellow-600 text-lg font-bold text-white rounded-xl cursor-pointer active:scale-95 transition-all duration-500"
+          className="w-60 h-14 bg-transparent text-lg font-bold text-white rounded-xl border-2 border-white cursor-pointer active:scale-95 transition-all duration-500"
         >
           See More
         </button>

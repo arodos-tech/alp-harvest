@@ -33,7 +33,7 @@ const Header = ({ smoothScroll }: Props) => {
   }, []);
 
   const handleScroll = () => {
-    if (window.scrollY > 300) {
+    if (window.scrollY > 200) {
       setIsScroll(true);
     } else {
       setIsScroll(false);

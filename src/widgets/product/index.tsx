@@ -26,16 +26,16 @@ const Product = ({
       <div
         className={`${animateClass2} w-full lg:w-7/12 flex flex-col items-center lg:items-start justify-center space-y-5 p-4`}
       >
-        <p className="text-5xl font-semibold text-secondary font-serif">
+        <p className="text-5xl font-semibold text-secondary font-family-title">
           {data.name}
         </p>
-        <div className="w-full flex flex-col space-y-2">
+        <div className="w-full flex flex-col space-y-4">
           {data.description.map((des: any, index: any) => (
             <div className="w-full flex space-x-1">
               <p className="h-full">-</p>
               <p
                 key={index}
-                className="text-lg text-left font-semibold text-secondary leading-6"
+                className="text-xl text-left font-semibold text-secondary leading-6"
               >
                 {des.para}
               </p>
@@ -46,15 +46,15 @@ const Product = ({
           {data.description}
         </p> */}
         <div className="w-full flex flex-col items-start justify-start pt-4">
-          <p className="text-2xl font-bold font-serif text-amber-900 border-b-2 border-amber-900 mb-3">
+          <p className="text-2xl font-bold font-serif text-white border-b-2 border-white mb-3">
             Variants
           </p>
           {data.varieties.map((variety: any, index: any) => (
             <div className="w-full flex space-x-2">
-              <p className="h-full text-black">o</p>
+              <p className="h-full text-themeWhite">o</p>
               <p
                 key={index}
-                className="font-semibold text-lg text-black tracking-wider"
+                className="font-semibold text-lg text-themeWhite tracking-wider"
               >
                 {variety.name}
               </p>

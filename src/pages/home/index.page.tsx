@@ -91,9 +91,10 @@ const Home = ({ response }: Props) => {
     return () => window.removeEventListener("scroll", reveal);
   }, []);
 
+  // bg - [#f2bd87];
   return (
     <>
-      <div className="fixed h-screen w-full bg-[#f2bd87] overflow-hidden">
+      <div className="fixed h-screen w-full bg-[#111] overflow-hidden">
         <img
           className="h-full w-full  object-cover opacity-[0.15]"
           src={bgImg.src}

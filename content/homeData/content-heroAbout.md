@@ -1,6 +1,6 @@
 ---
 heroImage: images/hero-banner.jpg
-aboutTitle: About Alp HARVEST
+aboutTitle: Our Story
 aboutText:
   - para: Alp Harvest brings to you the one stop shop for good quality, nutrition-loaded, affordable Seafood that you always wanted!
 

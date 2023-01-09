@@ -25,10 +25,10 @@ const Footer = ({ smoothScroll }: Props) => {
           onClick={() => {
             smoothScroll("top");
           }}
-          className="tracking-tighter font-serif whitespace-nowrap flex justify-start items-center w-fit text-3xl font-bold pt-2 transition-all duration-300 cursor-pointer"
+          className="tracking-tighter font-family-title whitespace-nowrap flex justify-start items-center w-fit text-3xl font-bold pt-2 transition-all duration-300 cursor-pointer"
         >
           {/* <div className="w-20 h-12 md:w-28 md:h-20 headerLogo" /> */}
-          Alp Harvest
+          Alp HARVEST
         </a>
       ) : (
         <Link href={"/"}>
@@ -51,7 +51,9 @@ const Footer = ({ smoothScroll }: Props) => {
 
   const ResourceSection = () => (
     <div className="w-full sm:w-48 p-4 pl-0 sm:ml-2 space-y-2 flex flex-col xl:tracking-widest">
-      <p className="font-medium text-2xl text-themeColor mb-4">Resources</p>
+      <p className="font-medium text-2xl text-themeColor font-family-title mb-4">
+        Resources
+      </p>
       {smoothScroll ? (
         <>
           <a
@@ -78,11 +80,13 @@ const Footer = ({ smoothScroll }: Props) => {
           >
             About
           </a>
-          <a
-            className={`w-fit transition-all duration-500 hover:cursor-pointer hover:text-amber-500 whitespace-nowrap`}
-          >
-            Contact Us
-          </a>
+          <Link href={"/contact-us"}>
+            <a
+              className={`w-fit transition-all duration-500 hover:cursor-pointer hover:text-amber-500 whitespace-nowrap`}
+            >
+              Contact Us
+            </a>
+          </Link>
         </>
       ) : (
         <>
@@ -107,11 +111,13 @@ const Footer = ({ smoothScroll }: Props) => {
               About
             </a>
           </Link>
-          <a
-            className={`w-fit transition-all duration-500 hover:cursor-pointer hover:text-amber-500 whitespace-nowrap`}
-          >
-            Contact Us
-          </a>
+          <Link href={"/contact-us"}>
+            <a
+              className={`w-fit transition-all duration-500 hover:cursor-pointer hover:text-amber-500 whitespace-nowrap`}
+            >
+              Contact Us
+            </a>
+          </Link>
         </>
       )}
     </div>
@@ -119,7 +125,9 @@ const Footer = ({ smoothScroll }: Props) => {
 
   const ProductsSection = () => (
     <div className="w-full sm:w-48 p-4 pl-0 space-y-2 flex flex-col xl:tracking-wide">
-      <p className="font-medium text-2xl text-themeColor mb-4">Products</p>
+      <p className="font-medium text-2xl text-themeColor font-family-title mb-4">
+        Products
+      </p>
       {smoothScroll ? (
         <>
           <a
@@ -178,22 +186,32 @@ const Footer = ({ smoothScroll }: Props) => {
   const ContactSection = () => (
     // <div className="w-full sm:w-80 flex flex-col space-y-2 p-4 pl-0">
     <div className=" w-full md:w-56 space-y-2 py-4 flex flex-col xl:tracking-widest">
-      <p className="font-medium text-2xl mb-4">Follow Us</p>
+      <p className="font-medium text-2xl font-family-title mb-4">Follow Us</p>
       <div className="flex items-center space-x-4 mb-3 font-thin">
-        <FaceBookIcon style="hover:fill-blue-500 w-8 h-8 fill-white cursor-pointer" />
-        <InstagramIcon
-          style={"w-8 h-8 hover:fill-fuchsia-600 fill-white cursor-pointer"}
-        />
-        <YoutubeIcon
+        <a
+          target="_blank"
+          href="https://www.facebook.com/Minbury-Farms-109359341759289/"
+        >
+          <FaceBookIcon style="hover:scale-125 w-8 h-8 fill-white cursor-pointer" />
+        </a>
+        <a
+          target="_blank"
+          href="https://instagram.com/minbury_food?igshid=YmMyMTA2M2Y="
+        >
+          <InstagramIcon
+            style={"w-8 h-8 hover:scale-125 fill-white cursor-pointer"}
+          />
+        </a>
+        {/* <YoutubeIcon
           style={"w-8 h-8 hover:fill-red-600 fill-white cursor-pointer"}
-        />
+        /> */}
       </div>
     </div>
   );
 
   return (
     <div
-      className={`z-10 relative w-full h-fit flex flex-wrap justify-start sm:justify-between text-white bg-[#333] pt-10 pb-28 ${paddingClass}`}
+      className={`z-10 relative w-full h-fit flex flex-wrap justify-start sm:justify-between text-white bg-[#000] pt-10 pb-28 ${paddingClass}`}
     >
       <img
         className="hidden sm:block absolute left-48 bottom-0 h-36"
