@@ -45,29 +45,21 @@ const ContactUs = (props: Props) => {
     <>
       <Header />
       <MetaHead title="Contact Us" />
-      <div
-        className={`w-full min-h-screen flex flex-col items-center bg-[#111] pb-20`}
-      >
+      <div className={`w-full min-h-screen flex flex-col items-center bg-[#111] pb-20`}>
         <div
           className={`w-full h-[45rem] md:h-[35rem] flex items-center justify-center contactBgImg bg-black pt-20 ${paddingClass}`}
         >
           <div className="absolute w-full md:w-[50rem] xl:w-[65rem] h-fit flex flex-col translate-y-64 md:translate-y-52 px-6">
             <div className="sm:w-96 flex flex-col space-y-5 pb-7">
-              <p className="text-4xl text-white font-family-title font-medium whitespace-nowrap">
-                Get In Touch
-              </p>
-              <p className="text-lg leading-6 text-white">
-                Leave us your info and {`we'll`} get back to you
-              </p>
+              <p className="text-4xl text-white font-family-title font-medium whitespace-nowrap">Get In Touch</p>
+              <p className="text-lg leading-6 text-white">Leave us your info and {`we'll`} get back to you</p>
             </div>
             <div className="w-full h-fit md:h-[35rem] flex flex-wrap bg-[#00000066] text-white rounded-2xl border-2 border-[#ffffff22] overflow-hidden">
               <form
                 onSubmit={(e: any) => handleSendMail(e)}
                 className="w-full md:w-[55%] lg:w-3/5 md:h-full flex flex-wrap items-center md:items-start justify-center p-7 md:py-12"
               >
-                <p className="w-full text-3xl font-medium whitespace-normal pb-5">
-                  Send Us a Message
-                </p>
+                <p className="w-full text-3xl font-medium whitespace-normal pb-5">Send Us a Message</p>
                 <div className="w-full sm:w-1/2 p-2 md:p-0 md:pr-4">
                   <input
                     type="text"
@@ -113,18 +105,12 @@ const ContactUs = (props: Props) => {
                     disabled={isLoading}
                     className="w-2/3 h-14 rounded-md bg-[#ffffff] text-xl text-black font-extrabold font-family-title hover:scale-95 transition-all duration-500"
                   >
-                    {isLoading ? (
-                      <div className={`${styles.btnLoadingSpinner}`}></div>
-                    ) : (
-                      "SUBMIT"
-                    )}
+                    {isLoading ? <div className={`${styles.btnLoadingSpinner}`}></div> : "SUBMIT"}
                   </button>
                 </div>
               </form>
               <div className="w-full md:w-[45%] lg:w-2/5 md:h-full bg-[#00000033] flex flex-col items-start justify-center md:justify-start p-7 md:py-12 space-y-4">
-                <p className="text-3xl font-medium pb-4 md:pb-7">
-                  Contact Information
-                </p>
+                <p className="text-3xl font-medium pb-4 md:pb-7">Contact Information</p>
                 <div className="w-full flex space-x-4">
                   <LocationIcon style={"h-7 w-7"} />
                   <p className="flex-1 text-lg">
@@ -139,13 +125,11 @@ const ContactUs = (props: Props) => {
                 </div>
                 <div className="w-full flex space-x-4">
                   <MailIcon style={"h-6 w-6"} />
-                  <p className="flex-1 text-lg tracking-tighter">
-                    dhrubajyoti.kakoti@bonphul-foods.com
-                  </p>
+                  <p className="flex-1 text-lg tracking-tighter">dhrubajyoti.kakoti@bonphul-foods.com</p>
                 </div>
                 <div className="w-full flex space-x-4">
                   <PhoneIcon color={"#fff"} h={26} w={26} />
-                  <p className="flex-1 text-lg">+91 96208 61198</p>
+                  <p className="flex-1 text-lg">+91 70023 06210</p>
                 </div>
                 <div className="flex justify-center fill-white space-x-10 pt-5 md:pt-12">
                   <a
@@ -167,9 +151,7 @@ const ContactUs = (props: Props) => {
             </div>
           </div>
         </div>
-        <div
-          className={`w-full h-[30rem] md:h-[20rem] flex items-center justify-center`}
-        ></div>
+        <div className={`w-full h-[30rem] md:h-[20rem] flex items-center justify-center`}></div>
       </div>
       <Footer />
       <Toastify />
