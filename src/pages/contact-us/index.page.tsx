@@ -129,7 +129,7 @@ const ContactUs = (props: Props) => {
                 </div>
                 <div className="w-full flex space-x-4">
                   <PhoneIcon color={"#fff"} h={26} w={26} />
-                  <p className="flex-1 text-lg">+91 70023 06210</p>
+                  <p className="flex-1 text-lg">+91 70990 65777</p>
                 </div>
                 <div className="flex justify-center fill-white space-x-10 pt-5 md:pt-12">
                   <a
