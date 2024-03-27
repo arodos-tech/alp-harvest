@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: production_deploy # Branch to update (optional; defaults to master)
+  branch: production # Branch to update (optional; defaults to master)
 # local_backend: true
 # local_backend:
 #   # when using a custom proxy server port
@@ -18,13 +18,7 @@ collections:
         label: "Hero and About"
         file: "content/homeData/content-heroAbout.md"
         fields:
-          - {
-              label: "Hero Image",
-              name: "heroImage",
-              widget: "image",
-              choose_url: true,
-              allow_multiple: false,
-            }
+          - { label: "Hero Image", name: "heroImage", widget: "image", choose_url: true, allow_multiple: false }
 
           - { label: "About Text", name: "aboutTitle", widget: "string" }
 
@@ -45,18 +39,8 @@ collections:
             allow_add: false
             fields:
               - { label: "Product Name", name: "name", widget: "string" }
-              - {
-                  label: "Product Description",
-                  name: "description",
-                  widget: "text",
-                }
-              - {
-                  label: "Product Image",
-                  name: "image",
-                  widget: "image",
-                  choose_url: true,
-                  allow_multiple: false,
-                }
+              - { label: "Product Description", name: "description", widget: "text" }
+              - { label: "Product Image", name: "image", widget: "image", choose_url: true, allow_multiple: false }
 
       # - name: "content-footerDetails"
       #   label: "Footer Details"
@@ -89,13 +73,7 @@ collections:
         fields:
           - { label: "Variety Name", name: "name", widget: "string" }
 
-      - {
-          label: "Product Image",
-          name: "image",
-          widget: "image",
-          choose_url: true,
-          allow_multiple: false,
-        }
+      - { label: "Product Image", name: "image", widget: "image", choose_url: true, allow_multiple: false }
 
   - name: "processedMeat"
     label: "Processed Meat"
@@ -119,13 +97,7 @@ collections:
         fields:
           - { label: "Variety Name", name: "name", widget: "string" }
 
-      - {
-          label: "Product Image",
-          name: "image",
-          widget: "image",
-          choose_url: true,
-          allow_multiple: false,
-        }
+      - { label: "Product Image", name: "image", widget: "image", choose_url: true, allow_multiple: false }
 
   - name: "pickles" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Pickles" # Used in the UI
@@ -149,10 +121,4 @@ collections:
         fields:
           - { label: "Variety Name", name: "name", widget: "string" }
 
-      - {
-          label: "Product Image",
-          name: "image",
-          widget: "image",
-          choose_url: true,
-          allow_multiple: false,
-        }
+      - { label: "Product Image", name: "image", widget: "image", choose_url: true, allow_multiple: false }

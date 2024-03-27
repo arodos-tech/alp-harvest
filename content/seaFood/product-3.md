@@ -11,7 +11,7 @@ description:
 
   - para: Wait no longer to dig into this amazing shellfish. Satisfaction is a given.
 
-  - para: So, drop in at our store today!
+  - para: So, drop in at our site today!
 varieties:
   - name: Squid Tubes 500 gms
 image: /images/sea-food-3.png

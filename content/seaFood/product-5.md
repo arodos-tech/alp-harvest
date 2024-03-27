@@ -9,7 +9,7 @@ description:
 
   - para: Cheesy preparations of baked Basa fish are out of this world! And so is steamed Basa, infused with spices and condiments.
 
-  - para: So, wait no more. Drop in at our store.
+  - para: So, wait no more. Visit our site.
 varieties:
   - name: Indian Basa 2 kg
   - name: Vietnamese Basa 2 kg

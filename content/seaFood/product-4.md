@@ -9,7 +9,7 @@ description:
 
   - para: Pleasant and delicate to taste, a dish of octopus will add an exotic spark to amaze your family and guests.
 
-  - para: Step into an Alp Harvest store today, to have it	conveniently delivered home!
+  - para: Step into an Alp Harvest site today, to have it	conveniently delivered home!
 varieties:
   - name: Baby Octopus 1 kg
 image: /images/sea-food-4.png

@@ -7,7 +7,7 @@ description:
 
   - para: Consuming crab meat helps chronic conditions. It is a great source of proteins, vitamin B12, chromium that counters diabetes and aids heart health; anti-oxidant selenium with anti-cancer properties, and omega 3 fatty acids that boost blood circulation.
 
-  - para: So, visit one of our stores to begin your healthy, tasty, crab-eating habit with us.
+  - para: So, visit our site to begin your healthy, tasty, crab-eating habit with us.
 varieties:
   - name: Whole Crab 1 kg
   - name: Crab Meat 1 kg
