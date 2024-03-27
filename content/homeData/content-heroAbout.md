@@ -10,5 +10,5 @@ aboutText:
   - para: Freshly sourced from the shores of Paradip, Odhisa- prawns, crabs, squid, octopus, pomfret and basa are packaged in the most hygienic conditions and made available to you with all the vitality and goodness intact.
   - para: The best cuts and varieties of chicken and pork, as well as sumptuous pickles made from locally grown herbs and spices are also available at Alp Harvest- for you to enjoy. Alp Harvest prides itself on its quality. Smoked chicken and smoked pork are guaranteed to be relished by meat lovers.
   - para: Alp Harvest is dedicated to provide excellent service and to partner with the farming community, especially women for their economic development. It is our vision to support the small growers of vegetables, herbs, spices by procuring from them these raw materials, as also by training them in the production of pickles that are organic, flavourful and uniquely local.
-  - para: Alp Harvest bears the hallmark of quality like its parent company Bonphul Foods Pvt Ltd.
+  - para: Alp Harvest bears the hallmark of quality like its parent company Bonphul Foods Pvt. Ltd.
 ---
