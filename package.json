@@ -23,7 +23,6 @@
     "react-google-forms-hooks": "^1.2.3",
     "react-infinite-scroll-component": "^6.1.0",
     "react-toastify": "^9.1.1",
-    "sharp": "^0.33.5",
     "zustand": "^3.7.1"
   },
   "devDependencies": {
